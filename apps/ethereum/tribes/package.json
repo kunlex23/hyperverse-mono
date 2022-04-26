@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@decentology/hyperverse-evm": "^1.0.0",
     "@decentology/hyperverse": "^1.0.0",
     "@decentology/hyperverse-ethereum": "^1.0.0",
     "@decentology/hyperverse-ethereum-randompick": "^1.0.0",

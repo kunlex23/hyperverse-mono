@@ -25,7 +25,6 @@ export const Provider: FC<{ initialState: HyperverseConfig }> = ({ children, ini
 		}
 	}
 	
-
 	// TODO: Check storage configured through intirialize and set the correct provider
 	// IPFS vs Skynet
 

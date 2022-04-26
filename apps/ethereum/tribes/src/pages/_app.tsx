@@ -8,7 +8,6 @@ import * as RandomPick from '@decentology/hyperverse-ethereum-randompick';
 import InnerComponent from '../components/InnerComponent';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
 // Change your Tenant ID here.
 const TENANT_ID = '0x62a7aa79a52591Ccc62B71729329A80a666fA50f';
 

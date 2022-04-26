@@ -1,16 +1,21 @@
 export * from '@decentology/web3modal';
-import { Provider, useEvm, Evm } from './useEVM';
+import { useEvm,  } from './useEVM';
+import {Provider, ProviderProps} from './provider'
 import { Blockchain, makeHyperverseBlockchain } from '@decentology/hyperverse';
 import { getProvider } from './evmLibraryBase';
 export { EvmLibraryBase } from './evmLibraryBase';
+
 export const Ethereum = makeHyperverseBlockchain({
 	name: Blockchain.Ethereum,
+		// @ts-ignore
 	Provider: Provider,
 });
 
 export const Localhost = makeHyperverseBlockchain({
 	name: Blockchain.Localhost,
+	// @ts-ignore
 	Provider: Provider,
 });
 
-export { Provider, useEvm, Evm, getProvider };
+export type {ProviderProps}
+export { Provider, useEvm, getProvider, };
