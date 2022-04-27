@@ -1,6 +1,6 @@
 export * from '@decentology/web3modal';
-import { useEvm,  } from './useEVM';
-import {Provider, ProviderProps} from './provider'
+import { useEvm} from './useEVM';
+import {Provider, ProviderProps, lightTheme, darkTheme} from './provider'
 import { Blockchain, makeHyperverseBlockchain } from '@decentology/hyperverse';
 import { getProvider } from './evmLibraryBase';
 export { EvmLibraryBase } from './evmLibraryBase';
@@ -18,4 +18,4 @@ export const Localhost = makeHyperverseBlockchain({
 });
 
 export type {ProviderProps}
-export { Provider, useEvm, getProvider, };
+export { Provider, useEvm, getProvider, lightTheme, darkTheme};
